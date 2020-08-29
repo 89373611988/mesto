@@ -1,0 +1,10 @@
+.header_indent {
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 425px) {
+  .header_indent {
+    margin: 28px 0 38.25px;
+  }
+}

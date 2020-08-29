@@ -1,0 +1,31 @@
+.profile__rectangle {
+  width: 24px;
+  height: 24px;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  transition: border 0.5s linear;
+  margin-top: 20px;
+}
+
+.profile__rectangle:hover {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-sizing: border-box;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .profile__rectangle {
+    margin: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile__rectangle {
+    margin: 0;
+    margin-top: 10px;
+    width: 18px;
+    height: 18px;
+  }
+}

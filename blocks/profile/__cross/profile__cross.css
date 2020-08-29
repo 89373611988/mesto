@@ -1,0 +1,38 @@
+.profile__cross {
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 150px;
+  height: 50px;
+  margin-left: 250px;
+  transition: border 0.5s linear;
+}
+
+.profile__cross:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
+  box-sizing: border-box;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .profile__cross {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .profile__cross {
+    margin: 0;
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 426px) {
+  .profile__cross {
+    margin: 0 auto;
+    width: 282px;
+  }
+}

@@ -1,0 +1,28 @@
+
+.profile {
+  width: 882px;
+}
+
+@media (max-width: 900px) {
+  .profile {
+    width: 682px;
+  }
+}
+
+@media (max-width: 800px) {
+  .profile {
+    width: 582px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile {
+    width: 382px;
+  }
+}
+
+@media (max-width: 426px) {
+  .profile {
+    width: 282px;
+  }
+}

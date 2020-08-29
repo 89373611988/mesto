@@ -1,0 +1,18 @@
+.element {
+  width: 282px;
+  height: 361px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 900px) {
+  .element {
+    
+  }
+}
+
+@media (max-width: 600px) {
+  .element {
+    margin: 0 auto;
+  }
+}

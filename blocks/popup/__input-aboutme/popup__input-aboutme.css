@@ -1,0 +1,27 @@
+.popup__input-aboutme {
+  font-size: 14px;
+  line-height: 17px;
+  width: 358px;
+  height: 27.26px;
+  margin: 0 0 48px 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 500px) {
+  .popup__input-aboutme {
+    width: 300px;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 0 40px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .popup__input-aboutme {
+    width: 280px;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 0 30px 0;
+  }
+}
