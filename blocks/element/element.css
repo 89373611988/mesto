@@ -1,13 +1,12 @@
 .element {
   width: 282px;
-  height: 361px;
-  position: relative;
-  z-index: 1;
+  height: 362px;
+  border-radius: 11px;
+  background-color: #ffffff;
 }
 
 @media (min-width: 900px) {
   .element {
-    
   }
 }
 

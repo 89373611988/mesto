@@ -1,0 +1,8 @@
+.element__heart-click {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: flex;
+  align-self: center;
+  background-color: #ffffff;
+}

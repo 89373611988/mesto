@@ -1,9 +1,6 @@
 .popup__icon {
   width: 40.7px;
   height: 40.7px;
-  position: absolute;
-  top: -32px;
-  right: -32px;
   transition: opacity 0.5s linear;
 }
 
@@ -12,10 +9,8 @@
   cursor: pointer;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .popup__icon {
-    top: -36px;
-    right: 0;
     width: 35px;
     height: 35px;
   }

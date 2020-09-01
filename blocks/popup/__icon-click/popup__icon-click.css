@@ -1,0 +1,20 @@
+.popup__icon-click {
+  position: absolute;
+  top: -43px;
+  right: -43px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  width: 40.7px;
+  height: 40.7px;
+}
+
+@media (max-width: 550px) {
+  .popup__icon-click {
+    top: -36px;
+    right: 0;
+    width: 35px;
+    height: 35px;
+  }
+}

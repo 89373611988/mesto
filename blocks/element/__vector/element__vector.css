@@ -3,5 +3,11 @@
   color: #000000;
   width: 20.76px;
   height: 18.13px;
-  align-self: center;
+  transition: background-color 0.5s linear;
+}
+
+.element__vector:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
+  cursor: pointer;
 }

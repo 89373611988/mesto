@@ -10,18 +10,18 @@
     <div class="page page_indent">
       <header class="header header_indent">
         <img
-          src="./images/Vector.png"
+          src="./images/vector.svg"
           alt="Логотип Место"
           class="header__logo"
         />
       </header>
 
       <main class="content">
-        <section class="profile profile_indent">
+        <section class="profile indent">
           <ul class="profile__list">
             <li class="profile__list-item">
               <img
-                src="./images/Cousteau.jpg"
+                src="./images/сousteau.jpg"
                 alt="Жак-Ив Кусто"
                 class="profile__avatar"
               />
@@ -29,10 +29,10 @@
             <li class="profile__list-item">
               <div class="profile__info">
                 <h1 class="profile__title">Жак-Ив Кусто</h1>
-                <button class="profile__rectangle">
+                <button type="button" class="profile__rectangle">
                   <img
-                    src="./images/Vector-correction.png"
-                    alt="Карандаш"
+                    src="./images/correction.svg"
+                    alt="Редактировать профиль"
                     class="profile__button"
                   />
                 </button>
@@ -40,10 +40,10 @@
               <p class="profile__subtitle">Исследователь океана</p>
             </li>
             <li class="profile__list-item">
-              <button class="profile__cross">
+              <button type="button" class="profile__cross">
                 <img
-                  src="./images/Vector-plus.png"
-                  alt="Знак плюс"
+                  src="./images/plus.svg"
+                  alt="Добавить карточку"
                   class="profile__plus"
                 />
               </button>
@@ -53,96 +53,102 @@
 
         <section class="elements">
           <article class="element">
-            <div class="element__rectangle"></div>
             <img src="./images/ufa.jpg" alt="Уфа" class="element__image" />
             <div class="element__group">
               <h2 class="element__title">Уфа</h2>
-              <img
-                src="./images/Vector-heart.svg"
-                alt="Сердце"
-                class="element__vector"
-              />
+              <button type="button" class="element__heart-click">
+                <img
+                  src="./images/heart.svg"
+                  alt="Лайкнуть фото"
+                  class="element__vector"
+                />
+              </button>
             </div>
           </article>
 
           <article class="element">
-            <div class="element__rectangle"></div>
             <img src="./images/crimea.jpg" alt="Крым" class="element__image" />
             <div class="element__group">
               <h2 class="element__title">Крым</h2>
-              <img
-                src="./images/Vector-heart.svg"
-                alt="Сердце"
-                class="element__vector"
-              />
+              <button type="button" class="element__heart-click">
+                <img
+                  src="./images/heart.svg"
+                  alt="Лайкнуть фото"
+                  class="element__vector"
+                />
+              </button>
             </div>
           </article>
 
           <article class="element">
-            <div class="element__rectangle"></div>
             <img
-              src="./images/Dombai.png"
+              src="./images/dombai.png"
               alt="Домбай"
               class="element__image"
             />
             <div class="element__group">
               <h2 class="element__title">Домбай</h2>
-              <img
-                src="./images/Vector-heart.svg"
-                alt="Сердце"
-                class="element__vector"
-              />
+              <button type="button" class="element__heart-click">
+                <img
+                  src="./images/heart.svg"
+                  alt="Лайкнуть фото"
+                  class="element__vector"
+                />
+              </button>
             </div>
           </article>
 
           <article class="element">
-            <div class="element__rectangle"></div>
             <img
-              src="./images/Elbrus.png"
+              src="./images/e.png"
               alt="Гора Эльбрус"
               class="element__image"
             />
             <div class="element__group">
               <h2 class="element__title">Гора Эльбрус</h2>
-              <img
-                src="./images/Vector-heart.svg"
-                alt="Сердце"
-                class="element__vector"
-              />
+              <button type="button" class="element__heart-click">
+                <img
+                  src="./images/heart.svg"
+                  alt="Лайкнуть фото"
+                  class="element__vector"
+                />
+              </button>
             </div>
           </article>
 
           <article class="element">
-            <div class="element__rectangle"></div>
             <img
-              src="./images/Moscow.jpg"
+              src="./images/moscow.jpg"
               alt="Москва"
               class="element__image"
             />
             <div class="element__group">
               <h2 class="element__title">Москва</h2>
-              <img
-                src="./images/Vector-heart.svg"
-                alt="Сердце"
-                class="element__vector"
-              />
+              <button type="button" class="element__heart-click">
+                <img
+                  src="./images/heart.svg"
+                  alt="Лайкнуть фото"
+                  class="element__vector"
+                />
+              </button>
             </div>
           </article>
 
           <article class="element">
-            <div class="element__rectangle"></div>
             <img
-              src="./images/Karachay-Cherkessia.png"
+              src="./images/karachay.png"
               alt="Карачаево-Черкесия"
               class="element__image"
             />
             <div class="element__group">
               <h2 class="element__title">Карачаево-Черкесия</h2>
-              <img
-                src="./images/Vector-heart.svg"
-                alt="Сердце"
-                class="element__vector"
-              />
+              <button type="button" class="element__heart-click">
+                <img
+                  src="./images/heart.svg"
+                  alt="Лайкнуть фото"
+                  class="element__vector"
+                />
+              </button>
             </div>
           </article>
         </section>
@@ -152,14 +158,27 @@
         <p class="footer__author">&copy; 2020 Mesto Russia</p>
       </footer>
       <div class="popup">
-        <form class="popup__container">
-          <img src="./images/CloseIcon.png" alt="Закрыть" class="popup__icon" />
+        <form name="format" class="popup__container">
+          <button type="button" class="popup__icon-click">
+            <img
+              src="./images/closeicon.svg"
+              alt="Закрыть форму"
+              class="popup__icon"
+            />
+          </button>
+
           <h2 class="popup__title">Редактировать профиль</h2>
-          <input type="text" class="popup__input-name" value="Жак-Ив Кусто" />
           <input
             type="text"
-            class="popup__input-aboutme"
-            value="Исследователь океана"
+            name="forename"
+            class="popup__input-name popup__input_form"
+            value=""
+          />
+          <input
+            type="text"
+            name="occupation"
+            class="popup__input-aboutme popup__input_form"
+            value=""
           />
           <button class="popup__button">Сохранить</button>
         </form>
