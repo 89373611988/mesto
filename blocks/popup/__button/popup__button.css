@@ -2,6 +2,7 @@
   width: 358px;
   height: 50.15px;
   margin: 0;
+  margin-top: 18.26px;
   padding: 0;
   background-color: #000000;
   border-color: #000000;
@@ -36,6 +37,7 @@
 @media (max-width: 380px) {
   .popup__button {
     width: 300px;
+    margin: 0;
   }
 }
 

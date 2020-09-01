@@ -1,8 +1,8 @@
 let popup = document.querySelector(".popup");
 let popupOpen = document.querySelector(".profile__rectangle"); // кнопка с карандашом
 let popupClose = document.querySelector(".popup__icon-click"); // крестик закрытия формы
-let inputName = document.querySelector(".popup__input-name"); // инпут имя
-let inputAboutme = document.querySelector(".popup__input-aboutme"); // инпут после имени
+let inputName = document.querySelector(".popup__input_name"); // инпут имя
+let inputAboutme = document.querySelector(".popup__input_aboutme"); // инпут после имени
 let formElement = document.querySelector(".popup__container"); // форма
 let popupButton = document.querySelector(".popup__button"); // кнопка сохранить
 let title = document.querySelector(".profile__title"); // заколовок
@@ -12,7 +12,6 @@ let popupToggle = function () {
   popup.classList.toggle("popup_opened");
 }; // создала функцию для добавления/удаления класса
 
-popupOpen.addEventListener("click", popupToggle); // вызов функции при клике по карандашу для добавления класса
 popupClose.addEventListener("click", popupToggle); // вызов функции при клике на крестик для удаления класса
 
 // Обработчик «отправки» формы
@@ -34,6 +33,7 @@ formElement.addEventListener("submit", formSubmitHandler);
 function ClickPopap() {
   inputName.value = title.innerHTML;
   inputAboutme.value = subtitle.innerHTML;
+  popupToggle();
 } // функция сохранения данных со странички в инпуты формы при каждом открытии попапа
 
-ClickPopap("click", popupToggle);
+popupOpen.addEventListener("click", ClickPopap); // вызов функции при клике по карандашу для добавления класса
