@@ -1,0 +1,16 @@
+.popup__group {
+  width: 483px;
+  height: 611px;
+  position: relative;
+  z-index: 11;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (max-width: 320px) {
+  .popup__group {
+    width: 262px;
+    height: 332px;
+  }
+}

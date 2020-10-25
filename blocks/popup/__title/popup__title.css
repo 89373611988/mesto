@@ -7,20 +7,47 @@
   color: #000000;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .popup__title {
-    width: 300px;
+    width: 330px;
     font-size: 20px;
     line-height: 23px;
     margin: 0 0 45px 0;
   }
 }
 
+@media (max-width: 500px) {
+  .popup__title {
+    width: 240px;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 45px 0;
+  }
+}
+
 @media (max-width: 425px) {
   .popup__title {
-    width: 280px;
+    width: 230px;
     font-size: 18px;
-    line-height: 20px;
-    margin: 0 0 35px 0;
+    line-height: 22px;
+    margin: 0 0 36px 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .popup__title {
+    width: 220px;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 36px 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .popup__title {
+    width: 200px;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 36px 0;
   }
 }
