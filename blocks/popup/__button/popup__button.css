@@ -2,7 +2,7 @@
   width: 358px;
   height: 50.15px;
   margin: 0;
-  margin-top: 18.26px;
+  margin-top: 48px;
   padding: 0;
   background-color: #000000;
   border-color: #000000;
@@ -18,31 +18,50 @@
   cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .popup__button {
-    width: 350px;
+    width: 330px;
+    height: 45px;
     font-size: 16px;
     line-height: 20px;
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 500px) {
+  .popup__button {
+    width: 240px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 40px;
   }
 }
 
 @media (max-width: 425px) {
   .popup__button {
-    width: 330px;
+    width: 230px;
+    height: 40px;
     font-size: 16px;
     line-height: 20px;
+    margin-top: 38px;
   }
 }
 
 @media (max-width: 380px) {
   .popup__button {
-    width: 300px;
-    margin: 0;
+    width: 220px;
+    height: 40px;
+    margin-top: 36px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .popup__button {
-    width: 290px;
+    width: 200px;
+    height: 40px;
+    margin-top: 36px;
+    font-size: 14px;
+    line-height: 17px;
   }
 }

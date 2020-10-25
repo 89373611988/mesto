@@ -1,0 +1,9 @@
+.element__vector_dark {
+  background-image: url(../../../../images/VectorDark.svg);
+}
+
+
+.element__heart_like {
+  background-color: green;
+  background-repeat: no-repeat;
+  background-position: center;
