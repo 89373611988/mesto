@@ -1,0 +1,11 @@
+.element__urn {
+  color: #ffffff;
+  width: 18px;
+  height: 19.3px;
+  transition: opacity 0.5s linear;
+}
+
+.element__urn:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

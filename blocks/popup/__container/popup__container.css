@@ -12,33 +12,42 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 600px) {
+  .popup__container {
+    width: 400px;
+    height: 280px;
+    padding: 30px 35px 35px 35px;
+  }
+}
+
 @media (max-width: 500px) {
   .popup__container {
-    width: 380px;
+    width: 300px;
     height: 280px;
-    padding: 30px 15px 32px 15px;
+    padding: 30px 30px 35px 30px;
   }
 }
 
 @media (max-width: 425px) {
   .popup__container {
-    width: 360px;
+    width: 280px;
     height: 260px;
-    padding: 25px 15px 27px 15px;
+    padding: 30px 25px 30px 25px;
   }
 }
 
 @media (max-width: 380px) {
   .popup__container {
-    width: 320px;
+    width: 260px;
     height: 250px;
-    padding: 20px 10px 0 10px;
+    padding: 30px 20px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .popup__container {
-    width: 300px;
-    padding: 15px 5px 0 5px;
+    width: 240px;
+    padding: 30px 20px;
+    margin: 0 auto;
   }
 }

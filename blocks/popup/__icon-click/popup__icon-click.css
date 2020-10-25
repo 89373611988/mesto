@@ -5,16 +5,25 @@
   border: none;
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: transparent;
   width: 40.7px;
   height: 40.7px;
 }
 
 @media (max-width: 550px) {
   .popup__icon-click {
-    top: -36px;
-    right: 0;
     width: 35px;
     height: 35px;
+    top: -35px;
+    right: -35px;
+  }
+}
+
+@media (max-width: 350px) {
+  .popup__icon-click {
+    width: 25px;
+    height: 25px;
+    top: -25px;
+    right: -25px;
   }
 }
